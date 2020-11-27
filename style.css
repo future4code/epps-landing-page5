@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
 }
 body{
     display: flex;
@@ -115,4 +116,21 @@ footer div a:hover{
     background-color: #FF5C5C;
     transition: all 0.5s ease-out;
     text-decoration: none;
+}
+
+@media screen and (max-width: 375px) {
+      main {
+    padding: 1rem 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  .container {
+      margin: 0;
+  }
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+      }
 }
