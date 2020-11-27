@@ -1,0 +1,44 @@
+.section-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+form{
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form label, form legend{
+	font-size: 1rem;
+}
+.input-padrao{
+	margin: 0 0 20px;
+	padding: 10px 25px;	
+}
+.enviar{
+	width: 50%;
+	padding: 15px 0;
+	background-color:#FF5C5C;
+	color: white;
+	font-weight: bold;
+	font-size: 1rem;
+	border:none;
+	border-radius: 5px;
+
+}
+.enviar:hover{
+	background-color: #1E1E1E;
+
+}
+
+@media screen and (max-width: 500px){
+    form{
+        width: 80%;
+    }
+    
+}
