@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+}
+body{
+    display: flex ;
+    flex-direction: column;
+}
+/* cabecalho */
+header{
+    width: 100%;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #FF5C5C;
+}
+header img{
+    padding-left: 10%;
+    width: 10%;
+}
+nav{
+    padding-right: 20%;
+}
+ul li{
+    margin:  0 30px;
+
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    
+}
+
+a:hover{
+    border-radius: 5px ;
+    padding: 20px 0;
+    color: #f2f2f2;
+    background-color: #FF5C5C;
+    
+    text-decoration: none;
+}
+
+/*  */
