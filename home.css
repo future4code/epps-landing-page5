@@ -26,6 +26,10 @@ section {
   color: #FF5C5C;
 }
 
+.car-name {
+  text-align: center;
+}
+
 section div img {
   max-width: 500px;
   width: 100%;
