@@ -35,7 +35,7 @@ form div div {
 }
 .input-padrao{
 	margin: 0 1rem 20px 0;
-	padding: 10px 25px;
+	padding: 10px;
 }
 .enviar{
 	width: 50%;
@@ -62,6 +62,5 @@ form div div {
         flex-wrap: wrap;
         justify-content: center;
     }
-    form div div {}
     
 }
