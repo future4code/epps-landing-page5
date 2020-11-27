@@ -41,6 +41,8 @@ section aside img {
   section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 1rem 0;
   }
 
@@ -55,9 +57,23 @@ section aside img {
   section div img {
     width: 80%;
   }
+
+  section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
   section aside img {
     width: 80%;
+  }
+
+  section aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .title {

@@ -14,10 +14,11 @@ header{
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #FF5C5C;
+    height: 100px;
 }
 
 header img{
-    padding-left: 10%;
+    padding-left: 1rem;
     width: 100px;
 }
 
@@ -73,6 +74,7 @@ footer {
     padding: 3rem;
     padding-bottom: 1rem;
     margin-top: 1rem;
+    position: static;
     bottom: 0;
     left: 0;
     display: flex;

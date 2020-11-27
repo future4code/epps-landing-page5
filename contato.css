@@ -4,9 +4,11 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding: 3rem 0;
 }
 form{
-    width: 40%;
+    width: 80%;
+    max-width: 600px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -16,9 +18,24 @@ form{
 form label, form legend{
 	font-size: 1rem;
 }
+
+label {
+    margin-bottom: .5rem;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+form div div {
+    display: flex;
+    flex-direction: column;
+}
 .input-padrao{
-	margin: 0 0 20px;
-	padding: 10px 25px;	
+	margin: 0 1rem 20px 0;
+	padding: 10px 25px;
 }
 .enviar{
 	width: 50%;
@@ -36,9 +53,15 @@ form label, form legend{
 
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 375px){
     form{
         width: 80%;
     }
+
+    form div {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    form div div {}
     
 }
