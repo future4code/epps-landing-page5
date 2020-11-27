@@ -1,43 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="style.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Estilos Gerais -->
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <!-- Estilo da Página Home -->
+    <link href="home.css" type="text/css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>4 CARS</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <img src="img/4cars.png" alt="Logo">
-        <nav>
-            <ul>
-                <a href=""><li>Home</li></a>
-                <a href=""><li>Serviços</li></a>
-                <a href=""><li>Contato</li></a>
-            </ul>
-        </nav>
+      <a href="#">
+        <img src="img/4cars.png" alt="Logo" />
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a class="menu-btn active" href="#">Home</a>
+          </li>
+          <li>
+            <a class="menu-btn" href="servicos.html">Serviços</a>
+          </li>
+          <li>
+            <a class="menu-btn" href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-  
-    <main>
-      <section>
+
+    <main class="container">
+      <section class="section1">
         <div>
-          <h1>4cars</h1>
-          <h4>Aluguéis de carros a preços acessíveis</h4>
+          <h1 class="title">4CARS</h1>
+          <h4 class="subtitle">Aluguéis de carros a preços acessíveis</h4>
         </div>
         <aside>
           <img src="img/onix.png" alt="Chevrolet Onix Sedan 2020" />
         </aside>
       </section>
-      <section>
+      <section class="section2">
         <div>
           <img src="img/civic.png" alt="Honda Civic 2020" />
         </div>
         <aside>
-          <h3>POPULARES OU LUXUOSOS</h3>
-          <h1>VOCÊ ESCOLHE</h1>
+          <h3 class="subtitle">POPULARES OU LUXUOSOS</h3>
+          <h1 class="call-to-action">VOCÊ ESCOLHE</h1>
         </aside>
       </section>
     </main>
